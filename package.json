@@ -1,0 +1,31 @@
+{
+  "name": "issuetracker",
+  "version": "1.0.0",
+  "description": "Issue Tracker for Tracking software bugs during the software development life cycle.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev:": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanGudmestad/IssueTracker.git"
+  },
+  "keywords": [
+    "Issue",
+    "Tracker",
+    "Evan",
+    "Gudmestad"
+  ],
+  "author": "Evan Gudmestad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanGudmestad/IssueTracker/issues"
+  },
+  "homepage": "https://github.com/EvanGudmestad/IssueTracker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
